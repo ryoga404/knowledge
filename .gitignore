@@ -1,0 +1,13 @@
+# 1. すべてを無視
+/*
+
+# 2. 目的の場所へたどり着くための「フォルダの階層」自体は無視しない
+!.gitignore
+!/build/
+!/build/linux/
+!/build/linux/x64/
+!/build/linux/x64/debug/
+!/build/linux/x64/debug/bundle/
+
+# 3. 最終的に上げたいフォルダ（またはファイル）を指定
+!/build/linux/x64/debug/bundle/knowledge
